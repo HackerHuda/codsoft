@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    display: flex;
+}
+.navbar{
+    text-align: center;
+    justify-content: space-between;  
+    background-color: rgba(0, 0, 0, 0.59);
+    display: flex;
+}
+.navbar-nav{
+    float: right;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 50px;
+}
+.nav-item{
+    align-items: center;
+}
+.nav-item:hover{
+    border: 0.5px;
+    border-radius: 50%;
+}
+.navbar-brand{
+    color: rgb(165, 104, 241);
+    font-family: 'Lora', serif;
+}
+.navbar-brand:hover{
+    color: rgb(156, 41, 169)
+}
+.collapse{
+    justify-content: flex-end;
+}
+.btn{
+    background-color: rgba(255, 255, 255, 0.423);
+    border-radius: 1px;
+}
+.navbar-toggler{
+    color: white;
+    border: 1px;
+}
+.top-home{
+    margin-top: 50px;
+    align-items: center;
+    height: 620px;
+}
+.home-left{
+    justify-content: center;
+    align-items: center;
+    margin: 40px 60px;
+}
+.home-right{
+    justify-content: flex-end;
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-left: 30px;
+}
+.icon{
+    align-items: center;
+}
+.flex-container{
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    margin: opx 10px ;
+    justify-content: center;
+}
+.head{
+    margin-bottom: 15px;
+}
+.download-button{
+    margin: 10px;
+    align-items: center;
+    padding: 5px 10px;
+}
+p{
+    margin-left: 50px;
+    margin-top: 150px;
+    width: 540px;
+}
+#membership{
+    margin: 10px;
+    align-items: center;
+}
+h3{
+    font-family: 'Varela Round', sans-serif;
+    margin: 20px 40px;
+    color: aliceblue;
+}
+.card{
+    text-align: center;
+    justify-content: space-between;
+    margin: 60px 30px;
+
+}
+.card-img-top{
+    color: rgb(98, 152, 246);
+    background-color: rgba(229, 229, 229, 0.051);
+}
+.card-body{
+    align-items: center;
+}
+.row1{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.row2{
+    display: flex;
+    justify-content: space-ev;
+}
+#membership{
+    display: flex;
+    flex-direction: column;
+}
+.card-text{
+    color: black;
+    display: inline;
+    justify-content: center;
+}
+.col1{
+    display: flex;
+}
+body{
+    height: 100vh;
+    width: 100wh;
+    margin: 0;
+    padding: 0;
+}
+#Home{
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+.top-home{
+    margin-top: 55px;
+    align-items: center;
+}
+#projects{
+    background-color: rgb(88, 78, 78);
+    margin: 10px 10px;
+}
+.col{
+    justify-content: center;
+}
+.project{
+    margin: 40px 60px;
+    color: rgb(241, 241, 241);
+    height: 280px;
+}
+.proimg{
+    margin:40px 60px;
+    height: 250px;
+}
+.logo{
+    height: 250px;
+}
+.row3{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0px;
+}
+.link{
+    color: aliceblue;
+    text-decoration: none;
+}
+.link:hover{
+    color: rgba(240, 248, 255, 0.347);
+}
+#contact{
+    background-color: #4caf50;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.contact-form {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
